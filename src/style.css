@@ -1,5 +1,5 @@
 :root {
-  --blue: #00acdc; /* cor azul usada em hover e link ativo */
+  --blue: #00acdc;
 }
 
 html {
@@ -35,19 +35,17 @@ header {
   width: 100%;
 }
 
-/* sem height aqui */
 
-/* Logo */
 
 .logo {
-  margin: 0; /* sem margem extra */
+  margin: 0;
+
   margin-top: 0;
   margin-left: 50px;
 
-  /* border: 2px solid green; */
 }
 
-/* Nav */
+
 
 .nav {
   display: flex;
@@ -71,6 +69,7 @@ header {
 .nav__link {
   display: inline-flex;
   align-items: center;
+  justify-content:center;
   height: 60px;
   padding: 0;
   text-transform: uppercase;
@@ -79,17 +78,17 @@ header {
   color: #000;
 }
 
-/* Hover azul */
+
 .nav__link:hover {
   color: var(--blue);
 }
 
-/* Link ativo */
+
 .nav__link.is-active {
   color: var(--blue);
 }
 
-/* Barra azul do link ativo */
+
 .nav__link.is-active::after {
   content: '';
   position: absolute;
