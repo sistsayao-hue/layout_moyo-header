@@ -62,7 +62,7 @@ header {
 }
 
 .nav__link {
-  display: inline-flex;
+  display:flex;
   align-items: center;
   justify-content:center;
   height: 60px;
