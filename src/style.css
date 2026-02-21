@@ -7,15 +7,10 @@ html {
  
   margin: 0;
   padding: 0;
-}
 
-*,
-*::before,
-*::after {
   box-sizing: inherit;
-  margin: 0;
-  padding: 0;
-}
+}  
+
 
 body {
   font-family: Roboto, sans-serif;
@@ -23,7 +18,7 @@ body {
   font-style: normal;
   font-size: 12px;
 }
-header {
+.header {
 display: flex;
 align-items: center;
 justify-content: space-between;
